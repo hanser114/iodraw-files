@@ -74,7 +74,7 @@
           <mxGeometry y="164" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="s0xZLEsCC3fTjB6fo7kH-23" value="XSDL" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="970" y="960" width="180" height="190" as="geometry" />
+          <mxGeometry x="750" y="570" width="180" height="190" as="geometry" />
         </mxCell>
         <mxCell id="s0xZLEsCC3fTjB6fo7kH-24" value="SDL_Window*win_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="s0xZLEsCC3fTjB6fo7kH-23" vertex="1">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
@@ -176,7 +176,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GaxbE_4u5Lii2BxqXLNS-4" value="XCodec" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="460" y="990" width="160" height="112" as="geometry" />
+          <mxGeometry x="680" y="1080" width="160" height="112" as="geometry" />
         </mxCell>
         <mxCell id="GaxbE_4u5Lii2BxqXLNS-8" value="std::mutex mux_" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GaxbE_4u5Lii2BxqXLNS-4">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
