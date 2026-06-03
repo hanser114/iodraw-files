@@ -27,6 +27,54 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-6" value="📁 com.macro.mall.controller&#xa;(API与参数校验)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="30" y="230" width="254" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-7" value="📁 com.macro.mall.service&#xa;(核心业务处理与协调)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="116" y="368" width="233" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-8" value="📁 com.macro.mall.mapper&#xa;(MySQL数据访问层/DAO)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="524" width="238" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-9" value="📁 com.macro.mall.model&#xa;(数据实体与POJO)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="681" width="254" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-10" value="1. 调用" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.68;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-6" target="TaSpVjotBzMm27VmlGch-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="233" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-11" value="2. 协调访问" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.7;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-7" target="TaSpVjotBzMm27VmlGch-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="319" y="488" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-12" value="引用" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.32;entryY=0;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-6" target="TaSpVjotBzMm27VmlGch-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="52" y="341" />
+              <mxPoint x="52" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-13" value="依赖" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.3;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-7" target="TaSpVjotBzMm27VmlGch-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="147" y="488" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-14" value="ORM 映射" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.82;entryY=0;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-8" target="TaSpVjotBzMm27VmlGch-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="319" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
