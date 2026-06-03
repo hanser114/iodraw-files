@@ -122,6 +122,77 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-25" value="外部客户端请求" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="673" y="40" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-26" value="Tomcat NIO 接收器&#xa;(Acceptor/Poller)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="639" y="218" width="196" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-27" value="Tomcat 工作线程池&#xa;(分配独立执行线程)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="637" y="357" width="200" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-28" value="业务逻辑处理栈&#xa;(Controller -&amp;gt; Service)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="615" y="496" width="243" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-29" value="数据库连接池&#xa;(如 HikariCP 分配连接)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="550" y="664" width="222" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-30" value="数据库/缓存 I/O 执行" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="576" y="833" width="169" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-31" value="返回 HTTP 响应" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="822" y="634" width="126" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-25" target="TaSpVjotBzMm27VmlGch-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-33" value="投递任务" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-26" target="TaSpVjotBzMm27VmlGch-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-34" value="线程上下文绑定" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-27" target="TaSpVjotBzMm27VmlGch-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-35" value="请求连接" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1;entryX=0.46;entryY=0.01;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-28" target="TaSpVjotBzMm27VmlGch-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="634" y="598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-36" value="持有连接" style="curved=1;startArrow=none;endArrow=block;exitX=0.41;exitY=1.01;entryX=0.32;entryY=0.01;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-29" target="TaSpVjotBzMm27VmlGch-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="601" y="797" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-37" value="返回结果释放连接" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=0.01;entryX=0.59;entryY=1.01;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-30" target="TaSpVjotBzMm27VmlGch-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="721" y="797" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=0.01;entryX=0.5;entryY=1;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-29" target="TaSpVjotBzMm27VmlGch-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="736" y="598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-39" value="构建 Response" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-28" target="TaSpVjotBzMm27VmlGch-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
