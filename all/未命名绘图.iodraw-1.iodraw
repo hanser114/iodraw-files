@@ -1,0 +1,33 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="9b4Xo8UivNiJ4yJ82x_Q">
+    <mxGraphModel dx="1221" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TaSpVjotBzMm27VmlGch-1" value="📦 订单组件 (Order)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="123" y="20" width="208" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-2" value="👤 会员组件 (User/Member)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="141" width="169" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-3" value="🛍️ 商品组件 (Product)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="239" y="150" width="222" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-4" value="依赖 (获取用户信息)" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.27;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-1" target="TaSpVjotBzMm27VmlGch-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="105" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-5" value="依赖 (获取详情与库存)" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.74;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-1" target="TaSpVjotBzMm27VmlGch-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
