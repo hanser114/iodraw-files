@@ -1,0 +1,51 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="oyO1XEY8cP0gTvVo9YLg">
+    <mxGraphModel dx="1221" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nrLTDyWAgnvvEGCqtvXC-1" value="客户端渲染 (CSR) - Hydration 接管后的 SPA 体验" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="842" y="20" width="1149" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="nrLTDyWAgnvvEGCqtvXC-2" value="服务端渲染 (SSR) - 提升首屏加载与 SEO" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="298" y="20" width="305" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="nrLTDyWAgnvvEGCqtvXC-3" value="👤 用户访问" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="35" width="106" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="nrLTDyWAgnvvEGCqtvXC-4" value="浏览商品列表页&#xa;(pages/index.vue)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="323" y="55" width="255" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nrLTDyWAgnvvEGCqtvXC-5" value="商品详情页&#xa;(pages/product/[id].vue)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="867" y="55" width="259" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nrLTDyWAgnvvEGCqtvXC-6" value="加入购物车&#xa;(前端组件交互)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="55" width="257" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nrLTDyWAgnvvEGCqtvXC-7" value="结算页面&#xa;(pages/checkout.vue)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1707" y="55" width="259" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nrLTDyWAgnvvEGCqtvXC-8" value="首屏请求 (HTTP)" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="nrLTDyWAgnvvEGCqtvXC-3" target="nrLTDyWAgnvvEGCqtvXC-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrLTDyWAgnvvEGCqtvXC-9" value="Hydration 注水激活&#xa;点击 " style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="nrLTDyWAgnvvEGCqtvXC-4" target="nrLTDyWAgnvvEGCqtvXC-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrLTDyWAgnvvEGCqtvXC-10" value="无刷新跳转" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="nrLTDyWAgnvvEGCqtvXC-5" target="nrLTDyWAgnvvEGCqtvXC-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrLTDyWAgnvvEGCqtvXC-11" value="状态更新/前端路由" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="nrLTDyWAgnvvEGCqtvXC-6" target="nrLTDyWAgnvvEGCqtvXC-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
