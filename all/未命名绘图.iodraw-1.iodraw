@@ -193,6 +193,213 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-40" value="📱 用户 (App)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1180" width="35" height="1046" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-41" value="🌐 Nginx" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="262" y="1180" width="150" height="1046" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-42" value="⚙️ Tomcat (线程池)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="472" y="1180" width="159" height="1046" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-43" value="🛠️ OrderController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="762" y="1180" width="158" height="1046" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-44" value="💼 OrderService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1076" y="1180" width="150" height="1046" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-45" value="⚡ Redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1399" y="1180" width="150" height="1046" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-46" value="🗄️ MySQL" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1599" y="1180" width="150" height="1046" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-47" value="" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0" vertex="1" parent="1">
+          <mxGeometry x="1116" y="1463" width="393" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-48" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="TaSpVjotBzMm27VmlGch-47">
+          <mxGeometry width="393" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-49" value="" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0" vertex="1" parent="1">
+          <mxGeometry x="1116" y="1646" width="593" height="277" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-50" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="TaSpVjotBzMm27VmlGch-49">
+          <mxGeometry width="593" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-51" value="提交订单请求 (POST)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-40" target="TaSpVjotBzMm27VmlGch-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="1287" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-52" value="1" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-51">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="-128.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-53" value="路由转发至后台节点" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-41" target="TaSpVjotBzMm27VmlGch-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="453" y="1339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-54" value="2" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-53">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="-114.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-55" value="分配工作线程，进入 Controller" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-42" target="TaSpVjotBzMm27VmlGch-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="705" y="1391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-56" value="3" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-55">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="-152.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-57" value="校验参数，调用生成订单业务逻辑" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-43" target="TaSpVjotBzMm27VmlGch-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1005" y="1443" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-58" value="4" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-57">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="-162.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-59" value="查询商品库存缓存 / 校验防重 Token" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-44" target="TaSpVjotBzMm27VmlGch-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1321" y="1564" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-60" value="5" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-59">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="-169" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-61" value="返回缓存数据 (极速响应)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-45" target="TaSpVjotBzMm27VmlGch-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1324" y="1616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-62" value="6" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-61">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="155" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-63" value="校验会员状态，校验真实库存" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-44" target="TaSpVjotBzMm27VmlGch-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1421" y="1747" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-64" value="7" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-63">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="-269" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-65" value="校验通过" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-46" target="TaSpVjotBzMm27VmlGch-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1424" y="1799" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-66" value="8" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-65">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="255" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-67" value="扣减库存，插入订单记录 (事务提交)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-44" target="TaSpVjotBzMm27VmlGch-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1421" y="1851" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-68" value="9" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-67">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="-269" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-69" value="持久化成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-46" target="TaSpVjotBzMm27VmlGch-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1424" y="1903" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-70" value="10" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-69">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="255" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-71" value="返回生成的 Order 实体" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-44" target="TaSpVjotBzMm27VmlGch-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1008" y="1965" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-72" value="11" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-71">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="148.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-73" value="构建 JSON 响应报文" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-43" target="TaSpVjotBzMm27VmlGch-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="708" y="2017" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-74" value="12" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-73">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="138.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-75" value="输出 HTTP 响应流" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-42" target="TaSpVjotBzMm27VmlGch-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="456" y="2069" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-76" value="13" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-75">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="100.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-77" value="终端展示“下单成功”页面" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="TaSpVjotBzMm27VmlGch-41" target="TaSpVjotBzMm27VmlGch-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="228" y="2121" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-78" value="14" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="TaSpVjotBzMm27VmlGch-77">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="114.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-79" value="缓存命中与前置校验阶段" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="1126" y="1483" width="373" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="TaSpVjotBzMm27VmlGch-80" value="核心事务处理与持久化阶段" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="1126" y="1666" width="573" height="49" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
